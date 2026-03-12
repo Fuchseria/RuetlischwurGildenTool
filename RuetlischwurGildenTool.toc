@@ -1,0 +1,7 @@
+## Interface: 120000
+## Title: Rütlischwur Gilden Tool
+## Notes: Guild Promotion / Demotion Queue Tool. Written with AI assistance.
+## Author: Fuchseria
+## Version: 1.0.1
+
+RuetlischwurGildenTool.lua

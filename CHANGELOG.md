@@ -1,75 +1,40 @@
-# Rütlischwur Gilden Tool – Changelog
+# Changelog
 
-Author: Fuchseria (vibe code)
+All notable changes to the **Rütlischwur Gilden Tool** will be documented in this file.
 
----
+This addon was developed with the assistance of AI.
 
-# Version 1.0
-
-Official Public Release
-
-## Core Features
-
-* Import player list (one name per line)
-* Automatic guild roster matching
-* Automatic realm name detection
-* Promotion queue system
-* Demotion queue system
-* Target rank dropdown selection
-
-## Queue System
-
-The addon creates a queue containing:
-
-Player Name
-Current Rank
-Target Rank
-
-Players remain in the queue until they reach the selected target rank.
-
-## Macro System
-
-The addon automatically generates two macros:
-
-RGT_PROMOTE
-RGT_DEMOTE
-
-Example:
-
-#showtooltip
-/gpromote Player-Realm
-
-The macros automatically update to always target the next player in the queue.
-
-## Automatic Queue Updates
-
-The queue updates automatically when a player's guild rank changes.
-
-Detected through:
-
-GUILD_ROSTER_UPDATE
-
-When a promotion or demotion happens:
-
-* queue updates
-* next player becomes active
-* macros update automatically
-
-## UI Features
-
-* movable addon window
-* ESC closes the window
-* scrollable import box
-* queue display
-* next player display
-* promote / demote mode selection
-
-## Slash Command
-
-/rgt
-
-Opens or closes the addon window.
+Author: Fuchseria
 
 ---
 
-This version represents the first stable public release of the addon.
+## [1.0.1] - 2026-03-12
+
+### Fixed
+- Player names entered as `Name-Server` are now correctly recognized and matched with guild roster entries.
+- Improved name matching when importing players from the edit box.
+
+### Improved
+- Queue table formatting improved for better readability.
+- Removed unsupported arrow characters from UI text.
+
+---
+
+## [1.0.0] - 2026-03-12
+
+### Initial Release
+
+Features:
+- Guild promotion queue system
+- Guild demotion queue system
+- Import player lists via edit box
+- Automatic guild roster matching
+- Automatic queue updates after promotions or demotions
+- Macro generation for promotion and demotion
+- Target rank selection via dropdown
+- Next player preview in UI
+- Slash command `/rgt` to open the addon window
+
+Notes:
+- Addon created with AI assistance.
+- Designed for World of Warcraft 12.0 (Midnight).

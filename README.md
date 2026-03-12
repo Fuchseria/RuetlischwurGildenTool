@@ -76,18 +76,33 @@ Each macro always targets the **next player in the queue**.
 
 ---
 
+---
+
 # Installation
 
-1. Download the addon
-2. Move the addon folder to:
+1. Download the **ZIP file** from the latest release on GitHub
+2. **Extract / unzip the ZIP file**
+3. Move the extracted addon folder to:
 
 ```
 World of Warcraft/_retail_/Interface/AddOns/
 ```
 
-3. Start the game
-4. Enable **Rütlischwur Gilden Tool** in the addon list
-5. Use `/rgt` to open the interface
+4. The folder structure should look like this:
+
+```
+World of Warcraft
+└─ _retail_
+   └─ Interface
+      └─ AddOns
+         └─ RuetlischwurGildenTool
+```
+
+5. Start the game
+6. Enable **Rütlischwur Gilden Tool** in the addon list
+
+Use `/rgt` to open the interface.
+
 
 ---
 

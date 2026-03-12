@@ -6,6 +6,8 @@
 ![License](https://img.shields.io/badge/license-MIT-yellow)
 ![AI Assisted](https://img.shields.io/badge/AI-assisted-orange)
 
+[![Download](https://img.shields.io/badge/Download-Latest%20Release-blue?style=for-the-badge)](https://github.com/Fuchseria/RuetlischwurGildenTool/releases)
+
 A lightweight guild management addon for **World of Warcraft Retail (Midnight 12.x)** that simplifies **promoting and demoting guild members** using an importable queue system.
 
 Players can paste a list of names, match them automatically with the guild roster, and process promotions or demotions step-by-step.

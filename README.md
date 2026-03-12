@@ -3,6 +3,7 @@
 ![WoW Version](https://img.shields.io/badge/WoW-12.x%20Midnight-blue)
 ![Version](https://img.shields.io/badge/version-1.0.1-green)
 ![Author](https://img.shields.io/badge/author-Fuchseria-purple)
+![License](https://img.shields.io/badge/license-MIT-green)
 ![AI Assisted](https://img.shields.io/badge/development-AI%20assisted-orange)
 
 A lightweight guild management addon for **World of Warcraft Retail (Midnight 12.x)** that simplifies **promoting and demoting guild members** using an importable queue system.
